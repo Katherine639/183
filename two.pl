@@ -9,14 +9,14 @@ while (<$file>){
     
            	if($1 eq "unknown"){
  
-	                 $unknown_cnt++;
-	                 $unknown_ips{$2}++;                 
+	            $unknown_cnt++;
+	            $unknown_ips{$2}++;                 
       }
   
-	  else{
-  
-	       $known_cnt++;
-	       $known_ips{$2}++;
+		else{
+		
+	      	   $known_cnt++;
+	      	   $known_ips{$2}++;
  }
     }   
       }

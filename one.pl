@@ -3,7 +3,7 @@
 
 BEGIN{
 
-open($file, "+>>", "hourlyinfo")
+   open($file, "+>>", "hourlyinfo")
 
 }
 

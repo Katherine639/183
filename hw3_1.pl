@@ -1,5 +1,5 @@
 #!/usr/bin/perl -n
-
+#HW3_1.pl
 
 BEGIN{
 
@@ -23,3 +23,8 @@ END{
     }
     
 }
+
+##EXAMPLE OUTPUT
+#Mar 1 hh:mm  [postfix rejects:27]  [amavis quarantines:30]
+#Mar 1 hh:mm  [postfix rejects:17]  [amavis quarantines:33]
+

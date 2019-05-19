@@ -26,3 +26,7 @@ END{
     }
 
 }
+##EXAMPLE OUTPUT
+#From bill@linux.org 42
+#From snoopy@freethedogs.net 32 
+#To bill@microsoft.com 21

@@ -14,9 +14,9 @@ while(<$file>){
   
     }
     
- 	   $from_addrs{$1}++ if $_ =~ /reject.*dnsbl.sorbs.net.*from=<([^\s]+)>/;
+ 		$from_addrs{$1}++ if $_ =~ /reject.*dnsbl.sorbs.net.*from=<([^\s]+)>/;
 
- 	   $to_addrs{$1}++ if $_ =~ /reject.*dnsbl.sorbs.net.*to=<([^\s]+)>/;
+ 		$to_addrs{$1}++ if $_ =~ /reject.*dnsbl.sorbs.net.*to=<([^\s]+)>/;
 
 }
 
